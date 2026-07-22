@@ -33,7 +33,8 @@ The project simulates a real-world fintech analytics ecosystem using a fictional
 
 
 ## Executive Overview
-<img width="1280" height="800" alt="Executive Overview" src="https://github.com/user-attachments/assets/f3a9a249-7f20-4184-b4a2-05ed67535866" />
+<img width="1280" height="782" alt="Executive Overview" src="https://github.com/user-attachments/assets/194587f3-725d-4d75-bcc6-d47e58ad5e00" />
+
 
 Provides a consolidated view of business KPIs, customer growth, conversion metrics, and operational performance.
 
@@ -41,8 +42,9 @@ Provides a consolidated view of business KPIs, customer growth, conversion metri
 ---
 
 ## Funnel Analytics
+<img width="1280" height="782" alt="Funnel Analytics" src="https://github.com/user-attachments/assets/8cdb564d-de4f-4589-9535-7720b3289ad9" />
 
-<img width="1280" height="800" alt="Funnel Analytics" src="https://github.com/user-attachments/assets/24a4f904-1c32-457d-b8f8-596aee3a6235" />
+
 
 Visualizes customer movement across acquisition stages while identifying conversion bottlenecks and drop-off points.
 
@@ -52,7 +54,9 @@ Visualizes customer movement across acquisition stages while identifying convers
 
 ## Marketing Attribution
 
-<img width="1280" height="800" alt="Marketing Attribution" src="https://github.com/user-attachments/assets/10c156ec-8e6f-4045-a154-669eed620242" />
+<img width="1280" height="782" alt="Marketing Attribution" src="https://github.com/user-attachments/assets/3e4977aa-d457-4568-bd46-2b84c701f532" />
+
+
 
 Measures campaign effectiveness across acquisition channels using attribution metrics and channel-level performance indicators.
 
@@ -61,7 +65,8 @@ Measures campaign effectiveness across acquisition channels using attribution me
 
 ## Customer Intelligence
 
-<img width="1280" height="800" alt="Customer Portfolio Analytics" src="https://github.com/user-attachments/assets/964753fb-604a-4a1b-96b3-94abefae8d44" />
+<img width="1280" height="780" alt="Customer Portfolio Analytics" src="https://github.com/user-attachments/assets/bb8e4253-7587-4179-92f6-259412691982" />
+
 
 Analyzes customer demographics, behavioural patterns, geographic distribution, and engagement trends.
 
@@ -70,7 +75,8 @@ Analyzes customer demographics, behavioural patterns, geographic distribution, a
 
 ## Experiment Analytics
 
-<img width="1280" height="800" alt="Experiment Analytics" src="https://github.com/user-attachments/assets/15e038b9-5e05-45b7-94af-59ccdc4944c6" />
+<img width="1280" height="782" alt="Experiment Analytics" src="https://github.com/user-attachments/assets/8ad9e9bb-4e24-48d8-97fa-d826be421cfd" />
+
 
 Tracks A/B experiments, compares performance metrics, and evaluates experiment outcomes.
 
