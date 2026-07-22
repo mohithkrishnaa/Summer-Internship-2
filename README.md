@@ -1,364 +1,309 @@
-# 🚀 InsightFlow – Customer Journey & Growth Analytics Platform
+<div align="center">
 
-> **An enterprise-grade Growth Analytics platform that simulates customer journeys, marketing attribution, funnel analytics, and A/B experimentation for a modern fintech ecosystem.**
+<img src="assets/logo.png" alt="InsightFlow Logo" width="140"/>
 
-![Status](https://img.shields.io/badge/Status-In%20Development-success?style=for-the-badge)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql)
+# InsightFlow
+
+### Enterprise Customer Journey & Growth Analytics Platform
+
+Transform customer interactions into actionable business intelligence through executive dashboards, funnel analytics, marketing attribution, customer intelligence, and experimentation insights.
+
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge&logo=streamlit)
-![SQL](https://img.shields.io/badge/SQL-Analytics-orange?style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75?style=for-the-badge&logo=plotly)
+![SQL](https://img.shields.io/badge/SQL-Analytics-green?style=for-the-badge)
+![Pytest](https://img.shields.io/badge/Tested-71%20Tests-success?style=for-the-badge)
+
+</div>
 
 ---
 
-# 📌 Project Overview
+# Overview
 
-**InsightFlow** is an end-to-end Product & Growth Analytics platform inspired by real-world analytics systems used by fintech companies such as PhonePe, Paytm, Razorpay, Groww, CRED, and Slice.
+InsightFlow is an enterprise-inspired customer journey and growth analytics platform designed to help organizations understand how users move through the acquisition funnel—from first interaction to successful conversion.
 
-The platform simulates the complete customer lifecycle—from marketing acquisition to loan disbursal—and provides actionable insights through funnel analytics, attribution modeling, experimentation, and interactive dashboards.
+Using SQL analytics, PostgreSQL, Python, and interactive dashboards, the platform transforms customer events into meaningful business intelligence for marketing, product, and executive teams.
 
-The project follows enterprise software engineering and analytics engineering practices, including modular architecture, configuration-driven pipelines, validation frameworks, reproducible synthetic data generation, SQL analytics, and executive reporting.
-
----
-
-# 🎯 Business Problem
-
-A fictional fintech company, **PaisaOne**, spends over **₹12 Crore/month** on digital marketing across:
-
-- Google Ads
-- Meta Ads
-- Affiliate Networks
-- Influencer Campaigns
-
-Despite attracting over **2 million app downloads**, only **0.4%** of users successfully receive loan disbursals.
-
-The marketing team currently relies on **Last-Touch Attribution**, making it impossible to accurately identify which acquisition channels truly drive business value.
-
-InsightFlow is designed to solve this challenge through data-driven analytics.
+The project simulates a real-world fintech analytics ecosystem using a fictional company, **PaisaOne**, enabling end-to-end analysis of customer acquisition, marketing performance, conversion funnels, and experimentation.
 
 ---
 
-# 🎯 Project Objectives
+# Dashboard Preview
 
-- Build an enterprise-grade synthetic customer data platform
-- Simulate realistic fintech customer journeys
-- Analyze customer conversion funnels
-- Compare marketing attribution models
-- Evaluate A/B experiments statistically
-- Build executive dashboards for business stakeholders
+> Replace the placeholders below with actual screenshots after pushing.
 
----
+## Executive Overview
 
-# 🚀 Core Features
-
-## 📊 Synthetic Data Generation
-
-- Enterprise synthetic data engine
-- 100,000+ configurable customer records
-- Configuration-driven architecture
-- Weighted probability distributions
-- Business-rule validation
-- Reproducible datasets using random seeds
+![](docs/screenshots/executive-dashboard.png)
 
 ---
 
-## 👤 Customer Profiles
+## Funnel Analytics
 
-Each generated user includes:
-
-- Demographics
-- Geography
-- Occupation
-- Monthly Income
-- Credit Score (CIBIL)
-- Device Type
-- Acquisition Channel
-- Registration Date
+![](docs/screenshots/funnel-dashboard.png)
 
 ---
 
-## 📈 Funnel Analytics *(Upcoming)*
+## Marketing Attribution
 
-- Customer Journey Funnel
-- Stage Conversion Analysis
-- Drop-off Diagnostics
-- Cohort Analysis
-- Customer Segmentation
+![](docs/screenshots/marketing-dashboard.png)
 
 ---
 
-## 🎯 Marketing Attribution *(Upcoming)*
+## Customer Intelligence
 
-Supported Models
-
-- First-Touch Attribution
-- Last-Touch Attribution
-- Time-Decay Attribution
-
-Business Metrics
-
-- Marketing ROI
-- Revenue Attribution
-- Channel Performance
-- Campaign Effectiveness
+![](docs/screenshots/customer-dashboard.png)
 
 ---
 
-## 🧪 Experiment Analytics *(Upcoming)*
+## Experiment Analytics
 
-- A/B Testing Engine
-- Lift Analysis
-- Confidence Intervals
-- Statistical Significance
-- p-value Calculation
-- Decision Recommendation
+![](docs/screenshots/experiments-dashboard.png)
 
 ---
 
-## 📊 Interactive Dashboard *(Upcoming)*
+# Key Features
 
-Built using Streamlit
-
-Modules:
-
-- Funnel Analytics
-- Attribution Analytics
-- Experiment Analytics
+- Executive KPI dashboard
+- Customer acquisition funnel analysis
+- Marketing attribution analytics
+- Customer intelligence dashboards
+- Geographic performance analysis
+- Interactive Plotly visualizations
+- SQL-powered analytics layer
+- PostgreSQL data warehouse
+- Enterprise-inspired UI
+- Dark theme interface
+- Modular architecture
+- Reusable analytics components
+- Responsive layouts
+- Cached analytics queries
+- Automated testing
 
 ---
 
-# 🏗️ Project Architecture
+# Business Scenario
 
-```text
-Marketing Channels
-        │
-        ▼
-Synthetic User Generator
-        │
-        ▼
-Journey Simulation Engine
-        │
-        ├───────────────┐
-        ▼               ▼
-Marketing Events     App Events
-        │               │
-        └───────┬───────┘
-                ▼
-           Loan Events
-                │
-                ▼
-         PostgreSQL Database
-                │
-                ▼
-          SQL Analytics
-                │
-                ▼
-       Business Intelligence
-                │
-                ▼
-        Streamlit Dashboard
+InsightFlow models the analytics infrastructure for **PaisaOne**, a fictional digital lending platform.
+
+Business teams require visibility into:
+
+- Customer acquisition performance
+- Funnel conversion rates
+- Marketing channel effectiveness
+- Geographic trends
+- Loan application behaviour
+- Experiment performance
+- Executive KPIs
+
+Instead of relying on disconnected reports, InsightFlow consolidates these insights into a unified analytics platform.
+
+---
+
+# Architecture
+
+![](docs/screenshots/architecture.png)
+
+```
+                    Synthetic Data
+                          │
+                          ▼
+                PostgreSQL Data Warehouse
+                          │
+                          ▼
+                 SQL Analytics Layer
+                          │
+                          ▼
+                Analytics Service Layer
+                          │
+                          ▼
+             Interactive Streamlit Dashboard
+                          │
+                          ▼
+          Executive Business Intelligence
 ```
 
 ---
 
-# 📂 Repository Structure
+# Technology Stack
 
-```text
+| Category | Technologies |
+|----------|--------------|
+| Programming | Python |
+| Dashboard | Streamlit |
+| Database | PostgreSQL |
+| Query Layer | SQL |
+| Visualization | Plotly |
+| Data Processing | Pandas, NumPy |
+| Testing | Pytest |
+| Styling | HTML, CSS |
+| Version Control | Git, GitHub |
+
+---
+
+# Project Structure
+
+```
 InsightFlow/
 
-├── config/
-├── dashboard/
-├── docs/
-├── notebooks/
+├── assets/
+│   ├── logo.png
+│   ├── india_map.png
+│   └── styles.css
+│
 ├── sql/
+│   ├── attribution_queries.sql
+│   └── funnel_queries.sql
+│
 ├── src/
-│   └── data_generation/
+│   ├── components/
+│   ├── database/
+│   ├── pages/
+│   ├── queries/
+│   ├── services/
+│   └── utils/
+│
 ├── tests/
-├── README.md
+│
+├── app.py
+├── config.py
 ├── requirements.txt
-└── LICENSE
+└── README.md
 ```
 
 ---
 
-# 💻 Technology Stack
+# Dashboard Modules
 
-### Programming
+### Executive Overview
 
-- Python
-
-### Database
-
-- PostgreSQL
-
-### Data Processing
-
-- Pandas
-- NumPy
-
-### Statistics
-
-- SciPy
-- Statsmodels
-
-### Visualization
-
-- Plotly
-
-### Dashboard
-
-- Streamlit
-
-### Configuration
-
-- YAML
-- Pydantic
-
-### Version Control
-
-- Git
-- GitHub
+Provides a consolidated view of business KPIs, customer growth, conversion metrics, and operational performance.
 
 ---
 
-# 📅 Development Progress
+### Funnel Analytics
 
-## ✅ Sprint 1 – Business Discovery
-
-- Business Requirements
-- KPI Dictionary
-- Stakeholder Analysis
-- Event Tracking Specification
-- Project Architecture
+Visualizes customer movement across acquisition stages while identifying conversion bottlenecks and drop-off points.
 
 ---
 
-## ✅ Sprint 2 – Data Architecture
+### Marketing Attribution
 
-- Synthetic Dataset Design
-- Business Rules
-- Geography Mapping
-- Validation Strategy
-- Configuration Layer
+Measures campaign effectiveness across acquisition channels using attribution metrics and channel-level performance indicators.
 
 ---
 
-## ✅ Sprint 3 – Synthetic User Generation Engine
+### Customer Intelligence
 
-Completed:
-
-- Pydantic Configuration
-- YAML Configuration
-- Generator Factory
-- Demographics Generator
-- Geography Generator
-- Customer Profile Generator
-- Validation Framework
-- Export Pipeline
-- Automated Tests
-
-### Generated Output
-
-- ✅ 100,000 Synthetic Users
-- ✅ Enterprise Validation Report
-- ✅ 33 Automated Tests Passing
+Analyzes customer demographics, behavioural patterns, geographic distribution, and engagement trends.
 
 ---
 
-## 🚧 Current Sprint
+### Experiment Analytics
 
-Building the **Customer Journey Simulation Engine**
-
-Upcoming datasets:
-
-- marketing_events.csv
-- app_events.csv
-- loan_events.csv
-- experiments.csv
+Tracks A/B experiments, compares performance metrics, and evaluates experiment outcomes.
 
 ---
 
-# 📊 Current Progress
+# Installation
 
-| Module | Status |
-|----------|--------|
-| Business Discovery | ✅ Complete |
-| Data Modeling | ✅ Complete |
-| Architecture | ✅ Complete |
-| Synthetic User Engine | ✅ Complete |
-| Journey Simulation | 🚧 In Progress |
-| PostgreSQL Integration | ⏳ Planned |
-| SQL Analytics | ⏳ Planned |
-| Funnel Analytics | ⏳ Planned |
-| Attribution Models | ⏳ Planned |
-| Dashboard | ⏳ Planned |
+Clone the repository
 
----
+```bash
+git clone https://github.com/mohithkrishnaa/InsightFlow.git
+```
 
-# 🎯 Business Value
+Move into the project
 
-InsightFlow enables organizations to:
+```bash
+cd InsightFlow
+```
 
-- Improve marketing ROI
-- Reduce customer acquisition costs
-- Identify funnel bottlenecks
-- Compare attribution models
-- Measure campaign effectiveness
-- Evaluate A/B experiments
-- Support executive decision-making
+Install dependencies
 
----
+```bash
+pip install -r requirements.txt
+```
 
-# 🔮 Roadmap
+Create your environment file
 
-### Phase 1 ✅
+```text
+cp .env.example .env
+```
 
-- Business Design
-- Synthetic User Engine
+Configure PostgreSQL credentials inside `.env`.
 
-### Phase 2 🚧
+Launch the application
 
-- Journey Simulation
-- Event Generation
-
-### Phase 3
-
-- PostgreSQL Database
-- SQL Analytics
-
-### Phase 4
-
-- Funnel Analytics
-- Attribution Models
-- A/B Testing
-
-### Phase 5
-
-- Streamlit Dashboard
-- Deployment
-- Executive Business Memo
+```bash
+streamlit run app.py
+```
 
 ---
 
-# 👨‍💻 Author
+# Testing
 
-**Mohith Krishna**
+Run all tests
 
-B.Tech Computer Science Engineering (AI & Data Engineering)
+```bash
+pytest
+```
 
-Interested in:
-
-- Data Analytics
-- Product Analytics
-- Business Intelligence
-- Growth Analytics
-
-**GitHub:** https://github.com/mohithkrishnaa
-
-**LinkedIn:** https://linkedin.com/in/mohith-krishnaa
+The project includes automated tests covering analytics logic and database connectivity.
 
 ---
 
-## ⭐ Project Status
+# Highlights
 
-🚧 **Active Development**
+- Enterprise-inspired dashboard experience
+- PostgreSQL-backed analytics
+- Interactive business intelligence visualizations
+- Modular software architecture
+- SQL-driven analytics layer
+- Automated testing
+- Responsive interface
+- Scalable code organization
 
-This repository documents the complete development lifecycle of an enterprise-style Growth Analytics platform—from business discovery and synthetic data engineering to SQL analytics, attribution modeling, experimentation, and business intelligence dashboards.
+---
+
+# Future Roadmap
+
+- Predictive analytics
+- Machine learning integration
+- Real-time event streaming
+- User authentication
+- Role-based access control
+- Cloud deployment
+- REST API
+- Scheduled reporting
+- Export to PDF and Excel
+
+---
+
+# About the Author
+
+## Mohith Krishna
+
+B.Tech Computer Science (AI & Data Engineering)
+
+Passionate about Data Analytics, Product Analytics, Business Intelligence, and AI-powered decision systems.
+
+- GitHub: https://github.com/mohithkrishnaa
+- LinkedIn: *(Add your LinkedIn URL here)*
+
+---
+
+# License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+### If you found this project useful, consider giving it a ⭐
+
+**InsightFlow — Turning customer data into actionable business intelligence.**
+
+</div>
