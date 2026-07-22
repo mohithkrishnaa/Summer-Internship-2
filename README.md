@@ -1,5 +1,4 @@
-<img width="1280" height="800" alt="Executive Overview" src="https://github.com/user-attachments/assets/13dd63fc-a8d2-4cbd-a7f4-50c6071fff93" />
-<div align="center">
+
 
 <img src="assets/logo.png" alt="InsightFlow Logo" width="140"/>
 
@@ -43,7 +42,8 @@ The project simulates a real-world fintech analytics ecosystem using a fictional
 
 ## Funnel Analytics
 
-![](docs/screenshots/funnel-dashboard.png)
+<img width="1280" height="800" alt="Funnel Analytics" src="https://github.com/user-attachments/assets/24a4f904-1c32-457d-b8f8-596aee3a6235" />
+
 
 ---
 
